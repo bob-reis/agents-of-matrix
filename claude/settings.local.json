@@ -1,0 +1,23 @@
+{
+  "allowedTools": [
+    "Task",
+    "Glob",
+    "Grep",
+    "LS",
+    "Read",
+    "Edit",
+    "MultiEdit",
+    "Write",
+    "WebFetch",
+    "WebSearch",
+    "Bash(git log:*)"  
+  ],
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "./", "./referencias"]
+    },
+    "memory": { "command": "npx", "args": ["-y", "@modelcontextprotocol/server-memory"] },
+    "fetch": { "command": "npx", "args": ["-y", "@modelcontextprotocol/server-fetch"] }
+  }
+}
