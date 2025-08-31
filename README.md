@@ -281,15 +281,6 @@ Quer melhorar esta documentação?
 
 ---
 
-## 📞 Suporte
-
-- 📖 **Documentação**: Navegue pelos links acima
-- 🐛 **Issues**: [GitHub Issues](https://github.com/anthropics/claude-code/issues)
-- 💬 **Comunidade**: [Discord/Slack da comunidade Claude Code]
-- 📧 **Contato**: [seu-email@exemplo.com]
-
----
-
 <div align="center">
 
 ### 🌟 **Feito com ❤️ para a comunidade de desenvolvedores brasileiros**
