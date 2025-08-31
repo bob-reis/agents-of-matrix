@@ -283,12 +283,8 @@ Quer melhorar esta documentação?
 
 <div align="center">
 
-### 🌟 **Feito com ❤️ para a comunidade de desenvolvedores brasileiros**
+### **Feito para a comunidade de desenvolvedores brasileiros**
 
 **[⭐ Star no GitHub](https://github.com/seu-usuario/claude-code-expert)** • **[🐛 Report Bug](https://github.com/seu-usuario/claude-code-expert/issues)** • **[💡 Request Feature](https://github.com/seu-usuario/claude-code-expert/issues)**
-
----
-
-*"O futuro do desenvolvimento é aqui e agora. Com Claude Code, transformamos ideias em realidade com velocidade, qualidade e segurança."*
 
 </div>
