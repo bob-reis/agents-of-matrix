@@ -94,6 +94,17 @@ claude code --agent blue-team "Execute threat hunting proativo"
 claude code --agent blue-team "Responda a incidente de segurança detectado"
 ```
 
+### 🔒 **OPSEC** - Operations Security
+**Quando usar:** Segurança operacional, proteção de informações sensíveis, cultura de segurança, comunicações seguras, prevenção de vazamento de informações
+```bash
+# Comandos típicos:
+claude code --agent opsec "Avalie cultura de segurança organizacional"
+claude code --agent opsec "Implemente controles de segurança em processos operacionais"
+claude code --agent opsec "Desenvolva programa de conscientização em segurança"
+claude code --agent opsec "Estabeleça protocolos de comunicação segura"
+claude code --agent opsec "Configure proteção contra vazamento de informações"
+```
+
 ---
 
 ## 🎯 Matriz de Decisão Rápida
@@ -110,6 +121,7 @@ claude code --agent blue-team "Responda a incidente de segurança detectado"
 | **Frontend/UX** | 🌸 Persephone | UI/UX, accessibility, responsive |
 | **Pentesting Ético** | 🎯 Red Team | Testes de penetração, POCs seguros |
 | **Defesa/Monitoramento** | 🛡 Blue Team | SIEM, threat hunting, incident response |
+| **Segurança Operacional** | 🔒 OPSEC | Cultura de segurança, treinamentos, processos |
 
 ---
 
@@ -125,6 +137,9 @@ claude code --agent trinity "Implemente mitigações de segurança"
 
 # 3. Pipeline seguro
 claude code --agent agent-smith "Configure CI/CD com security gates"
+
+# 4. Cultura e processos seguros
+claude code --agent opsec "Estabeleça cultura de segurança e processos operacionais"
 ```
 
 ### 🏗 **Code Quality Excellence**
@@ -151,6 +166,21 @@ claude code --agent persephone "Melhore experiência do usuário"
 claude code --agent oracle "Crie testes de performance"
 ```
 
+### 🔒 **Operational Security Excellence**
+```bash
+# 1. Avaliação de cultura de segurança
+claude code --agent opsec "Avalie cultura de segurança organizacional atual"
+
+# 2. Implementação de controles operacionais
+claude code --agent opsec "Implemente controles de segurança em processos operacionais"
+
+# 3. Programa de conscientização
+claude code --agent opsec "Desenvolva programa abrangente de treinamento em segurança"
+
+# 4. Monitoramento e melhoria contínua
+claude code --agent opsec "Configure métricas e KPIs de segurança operacional"
+```
+
 ---
 
 ## 🔄 **Workflow Completo (Todos os Agentes)**
@@ -173,11 +203,15 @@ echo "🚀 Fase 3: Automação e Deploy"
 claude code --agent agent-smith "Configure pipelines DevSecOps"
 claude code --agent merovingian "Configure monitoramento"
 
-echo "📚 Fase 4: Experiência e Documentação"
+echo "🔒 Fase 4: Segurança Operacional"
+claude code --agent opsec "Estabeleça cultura de segurança e processos operacionais"
+claude code --agent blue-team "Configure monitoramento defensivo e resposta a incidentes"
+
+echo "📚 Fase 5: Experiência e Documentação"
 claude code --agent persephone "Otimize UX e acessibilidade"
 claude code --agent architect "Crie documentação completa"
 
-echo "✅ Workflow completo executado!"
+echo "✅ Workflow completo com segurança operacional executado!"
 ```
 
 ---
@@ -192,6 +226,8 @@ echo "✅ Workflow completo executado!"
 
 ### ⚠ **Importante**
 - Neo e Trinity trabalham em conjunto para segurança completa
+- OPSEC estabelece a cultura e processos de segurança que suportam todos os outros agentes
+- Blue Team e OPSEC se complementam: defesa técnica + cultura organizacional
 - Morpheus e Oracle se complementam para qualidade total
 - Agent Smith coordena automação com todos os outros agentes
 - Architect documenta o trabalho de todos os agentes
