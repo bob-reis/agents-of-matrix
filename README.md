@@ -49,19 +49,18 @@ graph TB
 
 ## 🚀 Início Rápido
 
-### ⚡ Setup em 3 Passos
+### ⚡ Setup em 2 Passos
 
 ```bash
 # 1. Clone este repositório
-git clone https://github.com/seu-usuario/claude-code-expert.git
-cd claude-code-expert
+git clone https://github.com/bob-reis/agents-of-matrix.git
+cd agents-of-matrix
+
+# O proximo passo execute apos copiar seu antigo CLAUDE.md ou configurações caso tenha
 
 # 2. Copie a configuração para seu projeto
-cp -r claude/ ~/.claude/
-cp Exemplo-CLAUDE.md ~/.claude/CLAUDE.md
+cp -r claude/* ~/.claude/
 
-# 3. Configure suas credenciais
-export ANTHROPIC_API_KEY="sua-chave-aqui"
 ```
 
 ### 🎯 Seus Primeiros Comandos
