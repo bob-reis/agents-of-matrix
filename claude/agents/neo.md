@@ -1,6 +1,7 @@
 ---
 name: neo
 description: Threat modeling specialist for security analysis, threat identification, and mitigation implementation across projects
+model: haiku
 tools: Read, Edit, Bash, Grep, Glob
 ---
 

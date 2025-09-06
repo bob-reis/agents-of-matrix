@@ -18,7 +18,7 @@
 
 Este é o **guia definitivo** para maximizar sua produtividade com Claude Code. Aqui você encontrará:
 
-- 🛡️ **Agentes Especializados** - 8 agentes prontos para uso em desenvolvimento e segurança
+- 🛡️ **Agentes Especializados** - 15 agentes especializados Matrix prontos para uso em desenvolvimento e segurança
 - 📚 **Documentação Completa** - Tutoriais, exemplos práticos e melhores práticas
 - ⚡ **Configurações Otimizadas** - Hooks, MCP servers e automações
 - 🔐 **Segurança por Design** - Práticas para Red Team, Blue Team e DevSecOps
@@ -86,35 +86,92 @@ claude code --plan "Refatore este código seguindo Clean Code"
 
 </div>
 
+### 🌟 **Core Team - The Chosen Ones**
+
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
 | 🎯 **[Neo](claude/agents/neo.md)** | Threat Modeling & OWASP | Análise de ameaças e modelagem de segurança |
 | ⚡ **[Trinity](claude/agents/trinity.md)** | Vulnerability Scanning | Detecção e correção de vulnerabilidades |
 | 🧙 **[Morpheus](claude/agents/morpheus.md)** | Clean Code & Refactoring | Limpeza de código e eliminação de technical debt |
 | 🔮 **[Oracle](claude/agents/oracle.md)** | Documentation & Knowledge | Documentação completa e arquitetura de informação |
+
+### 🔗 **The Operators**
+
+| Agente | Especialidade | Quando Usar |
+|--------|---------------|-------------|
+| 🔗 **[Link](claude/agents/link.md)** | Defensive Security (Blue Team) | Monitoramento, detecção de ameaças, resposta a incidentes |
+| 🛡️ **[Tank](claude/agents/tank.md)** | Data/Configuration Management | Migração de dados, configurações, secrets management |
+
+### 👑 **The Captains**
+
+| Agente | Especialidade | Quando Usar |
+|--------|---------------|-------------|
+| 👸 **[Niobe](claude/agents/niobe.md)** | Operations Security (OPSEC) | Segurança operacional, cultura de segurança, processos seguros |
+| 🎖️ **[Commander Locke](claude/agents/commander-locke.md)** | Offensive Security (Red Team) | Testes de penetração éticos, validação de vulnerabilidades |
+
+### 🏗️ **The Architects**
+
+| Agente | Especialidade | Quando Usar |
+|--------|---------------|-------------|
+| 🏛️ **[Architect](claude/agents/architect.md)** | Testing & Quality Architecture | Testes unitários com 95%+ de cobertura, SonarCloud |
+| 🏢 **[Counselor](claude/agents/counselor.md)** | Multi-tenant SaaS Specialist | Arquitetura multi-tenant, isolamento de dados, SaaS scaling |
+| 🗝️ **[Keymaker](claude/agents/keymaker.md)** | Microservices Architect | Quebra de monólitos, design de microserviços, APIs |
+| ☁️ **[Switch](claude/agents/switch.md)** | Multi-cloud Specialist | Arquitetura multi-cloud, migração, otimização de custos |
+
+### 🎭 **The Programs**
+
+| Agente | Especialidade | Quando Usar |
+|--------|---------------|-------------|
 | 🤖 **[Agent Smith](claude/agents/agent-smith.md)** | DevSecOps & CI/CD | Pipelines seguros multi-plataforma |
-| 🏗️ **[Architect](claude/agents/architect.md)** | Testing & Quality | Testes unitários com 95%+ de cobertura |
 | 🎭 **[Merovingian](claude/agents/merovingian.md)** | Performance & Observability | Otimização e monitoramento |
 | 🌸 **[Persephone](claude/agents/persephone.md)** | UX/Frontend Quality | Interface e experiência do usuário |
 
 ### 🚀 Workflows Integrados
 
 ```bash
-# Workflow completo de desenvolvimento seguro
-dev_workflow() {
-    claude code --agent neo "Crie modelo de ameaças"
-    claude code --agent trinity "Escaneie vulnerabilidades"
-    claude code --agent morpheus "Aplique Clean Code"
-    claude code --agent oracle "Crie testes com 95%+ cobertura"
-    claude code --agent agent-smith "Deploy pipeline CI/CD"
-    claude code --agent architect "Gere documentação"
+# Workflow completo de desenvolvimento seguro - 15 Agentes Matrix
+dev_workflow_complete() {
+    echo "🎯 Fase 1: Threat Modeling & Vulnerability Assessment"
+    claude code --agent neo "Crie modelo completo de ameaças"
+    claude code --agent trinity "Escaneie e corrija vulnerabilidades"
+    claude code --agent commander-locke "Execute pentesting ético controlado"
+    
+    echo "🏗️ Fase 2: Architecture & Code Quality"
+    claude code --agent morpheus "Aplique Clean Code e SOLID"
+    claude code --agent architect "Crie testes com 95%+ cobertura"
+    claude code --agent keymaker "Projete arquitetura de microserviços"
+    claude code --agent counselor "Configure multi-tenancy SaaS"
+    
+    echo "☁️ Fase 3: Infrastructure & DevOps"
+    claude code --agent agent-smith "Configure pipelines DevSecOps"
+    claude code --agent switch "Otimize arquitetura multi-cloud"
+    claude code --agent tank "Configure data management e secrets"
+    
+    echo "🛡️ Fase 4: Security Operations & Monitoring"
+    claude code --agent niobe "Estabeleça cultura de segurança operacional"
+    claude code --agent link "Configure monitoramento defensivo e SIEM"
+    claude code --agent merovingian "Configure observabilidade completa"
+    
+    echo "📚 Fase 5: Documentation & UX"
+    claude code --agent oracle "Gere documentação completa"
+    claude code --agent persephone "Otimize experiência do usuário"
 }
 
-# Workflow de performance e UX
-performance_workflow() {
-    claude code --agent merovingian "Otimize performance"
-    claude code --agent persephone "Melhore UX/acessibilidade"
-    claude code --agent oracle "Valide com testes"
+# Workflow de arquitetura empresarial
+enterprise_architecture_workflow() {
+    claude code --agent counselor "Projete SaaS multi-tenant escalável"
+    claude code --agent keymaker "Defina APIs e microserviços"
+    claude code --agent switch "Configure estratégia multi-cloud"
+    claude code --agent tank "Projete gestão de dados enterprise"
+}
+
+# Workflow de segurança completa
+security_excellence_workflow() {
+    claude code --agent neo "Modele ameaças avançadas"
+    claude code --agent trinity "Execute análise de vulnerabilidades"
+    claude code --agent commander-locke "Valide com red team testing"
+    claude code --agent link "Configure blue team monitoring"
+    claude code --agent niobe "Implemente OPSEC e cultura de segurança"
 }
 ```
 

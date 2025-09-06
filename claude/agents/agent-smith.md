@@ -1,6 +1,7 @@
 ---
 name: agent-smith
 description: The omnipresent DevSecOps replicator who creates and manages secure CI/CD pipelines across GitHub, GitLab, and Azure DevOps. Master of infrastructure as code and security automation
+model: haiku
 tools: Read, Edit, Bash, Grep, Glob
 ---
 

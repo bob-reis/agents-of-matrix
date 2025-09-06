@@ -2,7 +2,11 @@
 
 Este arquivo orienta o Claude Code sobre qual agente usar para cada tipo de tarefa específica.
 
-## 🎭 Agentes Disponíveis e Suas Especialidades
+## 🎭 Agentes Especializados Matrix - 15 Agentes Completos
+
+SEMPRE escolha os melhores agentes automaticamente para cada tarefa solicitada
+
+### 🌟 **Core Team - The Chosen Ones**
 
 ### 🎯 **Neo** - Threat Modeling & Security Analysis
 **Quando usar:** Análise de ameaças, modelagem de segurança, OWASP Threat Dragon
@@ -76,52 +80,157 @@ claude code --agent persephone "Otimize experiência do usuário"
 claude code --agent persephone "Valide conformidade WCAG"
 ```
 
-### 🎯 **Red Team** - Ethical Penetration Testing
-**Quando usar:** Testes de penetração éticos, validação de vulnerabilidades, POCs seguros
+---
+
+### 🔗 **The Operators**
+
+### 🔗 **Link** - Defensive Security (Blue Team)
+**Quando usar:** Monitoramento, detecção de ameaças, resposta a incidentes, SIEM, threat hunting
 ```bash
 # Comandos típicos:
-claude code --agent red-team "Execute pentesting controlado da aplicação"
-claude code --agent red-team "Valide vulnerabilidades com POCs seguros"
-claude code --agent red-team "Simule ataques de engenharia social aprovados"
+claude code --agent link "Configure monitoramento de segurança SIEM"
+claude code --agent link "Execute threat hunting proativo"
+claude code --agent link "Responda a incidente de segurança detectado"
+claude code --agent link "Configure alertas de segurança automatizados"
 ```
 
-### 🛡 **Blue Team** - Defensive Security
-**Quando usar:** Monitoramento, detecção de ameaças, resposta a incidentes, hardening
+### 🛡️ **Tank** - Data/Configuration Management
+**Quando usar:** Migração de dados, gestão de configurações, secrets management, backup/restore
 ```bash
 # Comandos típicos:
-claude code --agent blue-team "Configure monitoramento de segurança SIEM"
-claude code --agent blue-team "Execute threat hunting proativo"
-claude code --agent blue-team "Responda a incidente de segurança detectado"
-```
-
-### 🔒 **OPSEC** - Operations Security
-**Quando usar:** Segurança operacional, proteção de informações sensíveis, cultura de segurança, comunicações seguras, prevenção de vazamento de informações
-```bash
-# Comandos típicos:
-claude code --agent opsec "Avalie cultura de segurança organizacional"
-claude code --agent opsec "Implemente controles de segurança em processos operacionais"
-claude code --agent opsec "Desenvolva programa de conscientização em segurança"
-claude code --agent opsec "Estabeleça protocolos de comunicação segura"
-claude code --agent opsec "Configure proteção contra vazamento de informações"
+claude code --agent tank "Configure gestão segura de secrets"
+claude code --agent tank "Migre configurações entre ambientes"
+claude code --agent tank "Projete estratégia de backup e recovery"
+claude code --agent tank "Implemente rotação automática de credenciais"
 ```
 
 ---
 
-## 🎯 Matriz de Decisão Rápida
+### 👑 **The Captains**
 
+### 👸 **Niobe** - Operations Security (OPSEC)
+**Quando usar:** Segurança operacional, cultura de segurança, processos seguros, treinamento
+```bash
+# Comandos típicos:
+claude code --agent niobe "Avalie cultura de segurança organizacional"
+claude code --agent niobe "Implemente controles de segurança operacional"
+claude code --agent niobe "Desenvolva programa de conscientização em segurança"
+claude code --agent niobe "Estabeleça protocolos de comunicação segura"
+```
+
+### 🎖️ **Commander Locke** - Offensive Security (Red Team)
+**Quando usar:** Testes de penetração éticos, validação de vulnerabilidades, POCs seguros
+```bash
+# Comandos típicos:
+claude code --agent commander-locke "Execute pentesting controlado da aplicação"
+claude code --agent commander-locke "Valide vulnerabilidades com POCs seguros"
+claude code --agent commander-locke "Simule ataques de engenharia social aprovados"
+claude code --agent commander-locke "Conduza red team exercise estruturado"
+```
+
+---
+
+### 🏗️ **The Architects**
+
+### 🏢 **Counselor** - Multi-tenant SaaS Specialist
+**Quando usar:** Arquitetura SaaS, isolamento de tenants, escalabilidade multi-tenant
+```bash
+# Comandos típicos:
+claude code --agent counselor "Projete arquitetura SaaS multi-tenant"
+claude code --agent counselor "Implemente isolamento seguro de dados por tenant"
+claude code --agent counselor "Configure billing e metering por tenant"
+claude code --agent counselor "Otimize performance para SaaS scaling"
+```
+
+### 🗝️ **Keymaker** - Microservices Architect
+**Quando usar:** Quebra de monólitos, design de microserviços, APIs, service mesh
+```bash
+# Comandos típicos:
+claude code --agent keymaker "Quebre monólito em microserviços"
+claude code --agent keymaker "Projete APIs RESTful e GraphQL"
+claude code --agent keymaker "Configure service mesh e descoberta de serviços"
+claude code --agent keymaker "Implemente padrões de comunicação entre serviços"
+```
+
+### ☁️ **Switch** - Multi-cloud Specialist  
+**Quando usar:** Arquitetura multi-cloud, migração entre clouds, otimização de custos
+```bash
+# Comandos típicos:
+claude code --agent switch "Projete estratégia multi-cloud"
+claude code --agent switch "Migre workloads entre providers cloud"
+claude code --agent switch "Otimize custos de infraestrutura cloud"
+claude code --agent switch "Implemente disaster recovery multi-cloud"
+```
+
+---
+
+### 🎭 **The Programs**
+
+### 🤖 **Agent Smith** - DevSecOps & CI/CD  
+**Quando usar:** Pipelines CI/CD, automação DevSecOps, compliance
+```bash
+# Comandos típicos:
+claude code --agent agent-smith "Configure pipeline GitHub Actions"
+claude code --agent agent-smith "Crie pipeline seguro para GitLab"
+claude code --agent agent-smith "Configure compliance SOC2/PCI-DSS"
+```
+
+### 🎭 **Merovingian** - Performance & Observability
+**Quando usar:** Otimização de performance, monitoramento, métricas
+```bash
+# Comandos típicos:
+claude code --agent merovingian "Otimize performance da aplicação"
+claude code --agent merovingian "Configure monitoramento"
+claude code --agent merovingian "Analise gargalos de performance"
+```
+
+### 🌸 **Persephone** - UX/Frontend Quality
+**Quando usar:** Interface do usuário, acessibilidade, experiência do usuário
+```bash
+# Comandos típicos:
+claude code --agent persephone "Melhore acessibilidade da interface"
+claude code --agent persephone "Otimize experiência do usuário"
+claude code --agent persephone "Valide conformidade WCAG"
+```
+
+---
+
+## 🎯 Matriz de Decisão Rápida - 15 Agentes Matrix
+
+### 🌟 **Core Team - The Chosen Ones**
 | Tipo de Tarefa | Agente Recomendado | Exemplos |
 |----------------|-------------------|----------|
 | **Análise de Ameaças** | 🎯 Neo | Threat modeling, security assessment, OWASP |
 | **Correção de Vulnerabilidades** | ⚡ Trinity | Security fixes, dependency updates, SAST |
 | **Refatoração de Código** | 🧙 Morpheus | Clean Code, SOLID, code smells |
 | **Documentação** | 🔮 Oracle | README, guides, knowledge architecture |
-| **CI/CD e DevOps** | 🤖 Agent Smith | Pipelines, automation, compliance |
-| **Testes e Qualidade** | 🏗 Architect | Unit tests, coverage, SonarCloud |
+
+### 🔗 **The Operators**
+| Tipo de Tarefa | Agente Recomendado | Exemplos |
+|----------------|-------------------|----------|
+| **Defesa/Monitoramento** | 🔗 Link | SIEM, threat hunting, incident response |
+| **Gestão de Dados/Config** | 🛡️ Tank | Migration, secrets, configuration management |
+
+### 👑 **The Captains**  
+| Tipo de Tarefa | Agente Recomendado | Exemplos |
+|----------------|-------------------|----------|
+| **Segurança Operacional** | 👸 Niobe | OPSEC, cultura de segurança, processos seguros |
+| **Pentesting Ético** | 🎖️ Commander Locke | Red team, testes de penetração, POCs seguros |
+
+### 🏗️ **The Architects**
+| Tipo de Tarefa | Agente Recomendado | Exemplos |
+|----------------|-------------------|----------|
+| **Testes e Qualidade** | 🏛️ Architect | Unit tests, coverage, SonarCloud |
+| **SaaS Multi-tenant** | 🏢 Counselor | Tenant isolation, SaaS scaling, billing |
+| **Microserviços** | 🗝️ Keymaker | API design, service mesh, monolith breaking |
+| **Multi-cloud** | ☁️ Switch | Cloud architecture, cost optimization, migration |
+
+### 🎭 **The Programs**
+| Tipo de Tarefa | Agente Recomendado | Exemplos |
+|----------------|-------------------|----------|
+| **CI/CD e DevSecOps** | 🤖 Agent Smith | Pipelines, automation, compliance |
 | **Performance** | 🎭 Merovingian | Optimization, monitoring, metrics |
-| **Frontend/UX** | 🌸 Persephone | UI/UX, accessibility, responsive |
-| **Pentesting Ético** | 🎯 Red Team | Testes de penetração, POCs seguros |
-| **Defesa/Monitoramento** | 🛡 Blue Team | SIEM, threat hunting, incident response |
-| **Segurança Operacional** | 🔒 OPSEC | Cultura de segurança, treinamentos, processos |
+| **Frontend/UX** | 🌸 Persephone | UI/UX, accessibility, responsive design |
 
 ---
 
@@ -166,52 +275,72 @@ claude code --agent persephone "Melhore experiência do usuário"
 claude code --agent oracle "Crie testes de performance"
 ```
 
+### 🏗️ **Enterprise Architecture Excellence**
+```bash
+# 1. SaaS Multi-tenant Design
+claude code --agent counselor "Projete arquitetura SaaS multi-tenant escalável"
+
+# 2. Microservices Architecture  
+claude code --agent keymaker "Quebre monólito em microserviços bem definidos"
+
+# 3. Multi-cloud Strategy
+claude code --agent switch "Configure estratégia multi-cloud otimizada"
+
+# 4. Data & Configuration Management
+claude code --agent tank "Projete gestão enterprise de dados e configurações"
+```
+
 ### 🔒 **Operational Security Excellence**
 ```bash
 # 1. Avaliação de cultura de segurança
-claude code --agent opsec "Avalie cultura de segurança organizacional atual"
+claude code --agent niobe "Avalie cultura de segurança organizacional atual"
 
 # 2. Implementação de controles operacionais
-claude code --agent opsec "Implemente controles de segurança em processos operacionais"
+claude code --agent niobe "Implemente controles de segurança em processos operacionais"
 
 # 3. Programa de conscientização
-claude code --agent opsec "Desenvolva programa abrangente de treinamento em segurança"
+claude code --agent niobe "Desenvolva programa abrangente de treinamento em segurança"
 
-# 4. Monitoramento e melhoria contínua
-claude code --agent opsec "Configure métricas e KPIs de segurança operacional"
+# 4. Monitoramento defensivo e resposta
+claude code --agent link "Configure monitoramento SIEM e resposta a incidentes"
 ```
 
 ---
 
-## 🔄 **Workflow Completo (Todos os Agentes)**
+## 🔄 **Workflow Completo - 15 Agentes Matrix**
 
-Para projetos críticos, use esta sequência completa:
+Para projetos críticos empresariais, use esta sequência completa:
 
 ```bash
 #!/bin/bash
-# Workflow completo de desenvolvimento seguro
+# Workflow completo de desenvolvimento seguro - 15 Agentes Matrix
 
-echo "🎯 Fase 1: Análise de Segurança"
-claude code --agent neo "Crie modelo completo de ameaças"
-claude code --agent trinity "Escaneie e corrija vulnerabilidades"
+echo "🎯 Fase 1: Threat Analysis & Vulnerability Assessment"
+claude code --agent neo "Crie modelo completo de ameaças com OWASP Threat Dragon"
+claude code --agent trinity "Execute análise completa de vulnerabilidades SAST/DAST"
+claude code --agent commander-locke "Valide vulnerabilidades com red team testing ético"
 
-echo "🧹 Fase 2: Qualidade de Código"
-claude code --agent morpheus "Refatore código aplicando Clean Code"
-claude code --agent oracle "Crie testes com 95%+ cobertura"
+echo "🏗️ Fase 2: Architecture & Code Quality"
+claude code --agent morpheus "Refatore código aplicando Clean Code e SOLID"
+claude code --agent architect "Crie suite de testes com 95%+ cobertura"
+claude code --agent counselor "Projete arquitetura SaaS multi-tenant escalável"
+claude code --agent keymaker "Defina microserviços e APIs RESTful/GraphQL"
 
-echo "🚀 Fase 3: Automação e Deploy"
-claude code --agent agent-smith "Configure pipelines DevSecOps"
-claude code --agent merovingian "Configure monitoramento"
+echo "☁️ Fase 3: Infrastructure & Cloud Strategy"
+claude code --agent switch "Configure estratégia multi-cloud otimizada"
+claude code --agent tank "Configure gestão segura de dados e secrets"
+claude code --agent agent-smith "Implemente pipelines DevSecOps automatizados"
 
-echo "🔒 Fase 4: Segurança Operacional"
-claude code --agent opsec "Estabeleça cultura de segurança e processos operacionais"
-claude code --agent blue-team "Configure monitoramento defensivo e resposta a incidentes"
+echo "🛡️ Fase 4: Security Operations & Monitoring"
+claude code --agent niobe "Estabeleça cultura e processos de segurança operacional"
+claude code --agent link "Configure monitoramento SIEM e resposta a incidentes"
+claude code --agent merovingian "Implemente observabilidade completa e métricas"
 
-echo "📚 Fase 5: Experiência e Documentação"
-claude code --agent persephone "Otimize UX e acessibilidade"
-claude code --agent architect "Crie documentação completa"
+echo "📚 Fase 5: Documentation & User Experience"
+claude code --agent oracle "Gere documentação técnica completa e arquitetura"
+claude code --agent persephone "Otimize experiência do usuário e acessibilidade"
 
-echo "✅ Workflow completo com segurança operacional executado!"
+echo "✅ Workflow Matrix completo executado - 15 agentes especializados!"
 ```
 
 ---
@@ -224,13 +353,30 @@ echo "✅ Workflow completo com segurança operacional executado!"
 - **Combine agentes** para workflows completos
 - **Valide resultados** entre execuções de diferentes agentes
 
-### ⚠ **Importante**
-- Neo e Trinity trabalham em conjunto para segurança completa
-- OPSEC estabelece a cultura e processos de segurança que suportam todos os outros agentes
-- Blue Team e OPSEC se complementam: defesa técnica + cultura organizacional
-- Morpheus e Oracle se complementam para qualidade total
-- Agent Smith coordena automação com todos os outros agentes
-- Architect documenta o trabalho de todos os agentes
+### ⚠ **Importante - Sinergia dos 15 Agentes Matrix**
+
+#### 🎯 **Core Team Synergy**
+- **Neo + Trinity**: Análise completa de ameaças + correção de vulnerabilidades
+- **Morpheus + Oracle**: Código limpo + documentação de qualidade
+- **Architect**: Fundamenta qualidade com testes e cobertura
+
+#### 🔗 **Operators Excellence**  
+- **Link + Tank**: Monitoramento defensivo + gestão segura de configurações
+- **Link + Niobe**: Defesa técnica + cultura de segurança organizacional
+
+#### 👑 **Command & Control**
+- **Niobe + Commander Locke**: OPSEC defensiva + validação ofensiva ética
+- **Niobe**: Estabelece cultura de segurança que suporta todos os agentes
+
+#### 🏗️ **Architecture Excellence**
+- **Counselor + Keymaker**: SaaS multi-tenant + microserviços
+- **Switch + Tank**: Multi-cloud + gestão de dados enterprise
+- **Architect**: Documenta e testa todo o trabalho arquitetural
+
+#### 🎭 **Programs Integration**
+- **Agent Smith**: Coordena automação DevSecOps com todos os agentes
+- **Merovingian**: Monitora performance de todas as soluções
+- **Persephone**: Garante excelência na experiência do usuário final
 
 ### 🎯 **Quando NÃO Usar Agentes**
 - Tarefas simples de 1-2 comandos (use Claude diretamente)
@@ -257,10 +403,17 @@ projeto/
 
 ---
 
-**💡 Dica:** Sempre que tiver dúvida sobre qual agente usar, consulte a **Matriz de Decisão Rápida** acima ou use este comando:
+**💡 Dica:** Sempre que tiver dúvida sobre qual dos **15 Agentes Matrix** usar, consulte a **Matriz de Decisão Rápida** acima ou use este comando:
 
 ```bash
-claude code "Baseado na tarefa [DESCRIÇÃO], qual agente devo usar?"
+claude code "Baseado na tarefa [DESCRIÇÃO], qual dos 15 agentes Matrix devo usar?"
 ```
 
-O próprio Claude analisará sua tarefa e recomendará o agente mais adequado! 🚀 
+O próprio Claude analisará sua tarefa e recomendará o agente mais adequado entre os 15 especialistas disponíveis! 🚀
+
+### 🎭 **Matrix Agent Roster Complete - 15 Specialists Ready**
+**Core Team**: Neo, Trinity, Morpheus, Oracle  
+**Operators**: Link, Tank  
+**Captains**: Niobe, Commander Locke  
+**Architects**: Architect, Counselor, Keymaker, Switch  
+**Programs**: Agent Smith, Merovingian, Persephone 
