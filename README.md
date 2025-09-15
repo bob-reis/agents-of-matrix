@@ -18,7 +18,7 @@
 
 Este é o **guia definitivo** para maximizar sua produtividade com Claude Code. Aqui você encontrará:
 
-- 🛡️ **Agentes Especializados** - 15 agentes especializados Matrix prontos para uso em desenvolvimento e segurança
+- 🛡️ **Agentes Especializados** - 18 agentes especializados Matrix prontos para uso em desenvolvimento e segurança
 - 📚 **Documentação Completa** - Tutoriais, exemplos práticos e melhores práticas
 - ⚡ **Configurações Otimizadas** - Hooks, MCP servers e automações
 - 🔐 **Segurança por Design** - Práticas para Red Team, Blue Team e DevSecOps
@@ -59,7 +59,7 @@ cd agents-of-matrix
 # O proximo passo execute apos copiar seu antigo CLAUDE.md ou configurações caso tenha
 
 # 2. Copie a configuração para seu projeto
-cp -r claude/* ~/.claude/
+cp -r .claude/* ~/.claude/
 
 ```
 
@@ -90,46 +90,49 @@ claude code --plan "Refatore este código seguindo Clean Code"
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 🎯 **[Neo](claude/agents/neo.md)** | Threat Modeling & OWASP | Análise de ameaças e modelagem de segurança |
-| ⚡ **[Trinity](claude/agents/trinity.md)** | Vulnerability Scanning | Detecção e correção de vulnerabilidades |
-| 🧙 **[Morpheus](claude/agents/morpheus.md)** | Clean Code & Refactoring | Limpeza de código e eliminação de technical debt |
-| 🔮 **[Oracle](claude/agents/oracle.md)** | Documentation & Knowledge | Documentação completa e arquitetura de informação |
+| 🎯 **[Neo](.claude/agents/neo.md)** | Threat Modeling & OWASP | Análise de ameaças e modelagem de segurança |
+| ⚡ **[Trinity](.claude/agents/trinity.md)** | Vulnerability Scanning | Detecção e correção de vulnerabilidades |
+| 🧙 **[Morpheus](.claude/agents/morpheus.md)** | Clean Code & Refactoring | Limpeza de código e eliminação de technical debt |
+| 🔮 **[Oracle](.claude/agents/oracle.md)** | Documentation & Knowledge | Documentação completa e arquitetura de informação |
 
 ### 🔗 **The Operators**
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 🔗 **[Link](claude/agents/link.md)** | Defensive Security (Blue Team) | Monitoramento, detecção de ameaças, resposta a incidentes |
-| 🛡️ **[Tank](claude/agents/tank.md)** | Data/Configuration Management | Migração de dados, configurações, secrets management |
+| 🔗 **[Link](.claude/agents/link.md)** | Defensive Security (Blue Team) | Monitoramento, detecção de ameaças, resposta a incidentes |
+| 🛡️ **[Tank](.claude/agents/tank.md)** | Data/Configuration Management | Migração de dados, configurações, secrets management |
+| 🎖️ **[Dozer](.claude/agents/dozer.md)** | XDR/SIEM/SOAR Specialist | Extended Detection & Response, SOAR playbooks, Yara/Suricata |
+| 🏰 **[Zee](.claude/agents/zee.md)** | Wazuh Master Specialist | Wazuh deployment, GitHub repos, regras customizadas |
 
 ### 👑 **The Captains**
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 👸 **[Niobe](claude/agents/niobe.md)** | Operations Security (OPSEC) | Segurança operacional, cultura de segurança, processos seguros |
-| 🎖️ **[Commander Locke](claude/agents/commander-locke.md)** | Offensive Security (Red Team) | Testes de penetração éticos, validação de vulnerabilidades |
+| 👸 **[Niobe](.claude/agents/niobe.md)** | Operations Security (OPSEC) | Segurança operacional, cultura de segurança, processos seguros |
+| 🎖️ **[Commander Locke](.claude/agents/commander-locke.md)** | Offensive Security (Red Team) | Testes de penetração éticos, validação de vulnerabilidades |
+| ⚡ **[Ghost](.claude/agents/ghost.md)** | Threat Intelligence & Attribution | CTI analysis, IOCs, TTPs, MITRE ATT&CK, attribution |
 
 ### 🏗️ **The Architects**
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 🏛️ **[Architect](claude/agents/architect.md)** | Testing & Quality Architecture | Testes unitários com 95%+ de cobertura, SonarCloud |
-| 🏢 **[Counselor](claude/agents/counselor.md)** | Multi-tenant SaaS Specialist | Arquitetura multi-tenant, isolamento de dados, SaaS scaling |
-| 🗝️ **[Keymaker](claude/agents/keymaker.md)** | Microservices Architect | Quebra de monólitos, design de microserviços, APIs |
-| ☁️ **[Switch](claude/agents/switch.md)** | Multi-cloud Specialist | Arquitetura multi-cloud, migração, otimização de custos |
+| 🏛️ **[Architect](.claude/agents/architect.md)** | Testing & Quality Architecture | Testes unitários com 95%+ de cobertura, SonarCloud |
+| 🏢 **[Counselor](.claude/agents/counselor.md)** | Multi-tenant SaaS Specialist | Arquitetura multi-tenant, isolamento de dados, SaaS scaling |
+| 🗝️ **[Keymaker](.claude/agents/keymaker.md)** | Microservices Architect | Quebra de monólitos, design de microserviços, APIs |
+| ☁️ **[Switch](.claude/agents/switch.md)** | Multi-cloud Specialist | Arquitetura multi-cloud, migração, otimização de custos |
 
 ### 🎭 **The Programs**
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 🤖 **[Agent Smith](claude/agents/agent-smith.md)** | DevSecOps & CI/CD | Pipelines seguros multi-plataforma |
-| 🎭 **[Merovingian](claude/agents/merovingian.md)** | Performance & Observability | Otimização e monitoramento |
-| 🌸 **[Persephone](claude/agents/persephone.md)** | UX/Frontend Quality | Interface e experiência do usuário |
+| 🤖 **[Agent Smith](.claude/agents/agent-smith.md)** | DevSecOps & CI/CD | Pipelines seguros multi-plataforma |
+| 🎭 **[Merovingian](.claude/agents/merovingian.md)** | Performance & Observability | Otimização e monitoramento |
+| 🌸 **[Persephone](.claude/agents/persephone.md)** | UX/Frontend Quality | Interface e experiência do usuário |
 
 ### 🚀 Workflows Integrados
 
 ```bash
-# Workflow completo de desenvolvimento seguro - 15 Agentes Matrix
+# Workflow completo de desenvolvimento seguro - 18 Agentes Matrix
 dev_workflow_complete() {
     echo "🎯 Fase 1: Threat Modeling & Vulnerability Assessment"
     claude code --agent neo "Crie modelo completo de ameaças"
@@ -147,9 +150,12 @@ dev_workflow_complete() {
     claude code --agent switch "Otimize arquitetura multi-cloud"
     claude code --agent tank "Configure data management e secrets"
     
-    echo "🛡️ Fase 4: Security Operations & Monitoring"
+    echo "🛡️ Fase 4: Security Operations & Advanced Monitoring"
     claude code --agent niobe "Estabeleça cultura de segurança operacional"
     claude code --agent link "Configure monitoramento defensivo e SIEM"
+    claude code --agent dozer "Implemente XDR e playbooks SOAR automatizados"
+    claude code --agent zee "Configure Wazuh SIEM enterprise completo"
+    claude code --agent ghost "Configure feeds de CTI e análise de IOCs"
     claude code --agent merovingian "Configure observabilidade completa"
     
     echo "📚 Fase 5: Documentation & UX"
@@ -170,6 +176,9 @@ security_excellence_workflow() {
     claude code --agent neo "Modele ameaças avançadas"
     claude code --agent trinity "Execute análise de vulnerabilidades"
     claude code --agent commander-locke "Valide com red team testing"
+    claude code --agent ghost "Correlacione com threat intelligence"
+    claude code --agent dozer "Configure detecção avançada XDR/SOAR"
+    claude code --agent zee "Implemente Wazuh SIEM completo"
     claude code --agent link "Configure blue team monitoring"
     claude code --agent niobe "Implemente OPSEC e cultura de segurança"
 }
@@ -194,6 +203,11 @@ security_excellence_workflow() {
 - 🛡️ [Segurança](docs/seguranca.md) - Práticas seguras e Red/Blue Team
 - 🎯 [Threat Modeling](docs/threat-modeling.md) - Integração com OWASP Threat Dragon
 - ✅ [Boas Práticas](docs/boas-praticas.md) - Guidelines e padrões recomendados
+
+### 🎭 **Agentes Matrix - 18 Especialistas**
+- 🚀 [**NOVO!** Novos Agentes Matrix](docs/novos-agentes-matrix.md) - Dozer, Zee e Ghost especializados
+- 📚 [Guia Completo - 18 Agentes](docs/agentes-18-completo.md) - Documentação completa de todos os agentes
+- 🔄 [Workflows Enterprise](docs/agentes-18-completo.md#workflows-matrix-enterprise) - Workflows para projetos críticos
 
 ### 📊 **Monitoramento e Otimização**
 - 💰 [Modelos e Custos](docs/modelos-e-custos.md) - Otimização de custos API
@@ -240,7 +254,8 @@ projeto/
 ├── .claude/
 │   ├── settings.local.json    # Configurações do projeto
 │   ├── hooks.json            # Automações
-│   └── agents/               # Agentes customizados
+│   ├── agents/               # 18 Agentes Matrix especializados
+│   └── scripts/              # Scripts de validação e hooks
 ├── CLAUDE.md                 # Instruções do projeto
 └── scripts/                  # Automações extras
 ```

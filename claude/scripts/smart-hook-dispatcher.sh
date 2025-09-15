@@ -18,3 +18,16 @@ if echo "$command" | grep -q "npm run build"; then
   echo "[hook] Build: validações" >&2
   ./scripts/build-validator.sh <<< "$json_input" || true
 fi
+
+# Validações dos novos agentes Matrix
+if echo "$command" | grep -qi "wazuh\|zee"; then
+  ./scripts/wazuh-validator.sh <<< "$json_input" || true
+fi
+
+if echo "$command" | grep -qi "soar\|xdr\|dozer"; then
+  ./scripts/xdr-soar-validator.sh <<< "$json_input" || true
+fi
+
+if echo "$command" | grep -qi "ghost\|cti\|ioc"; then
+  ./scripts/threat-intel-validator.sh <<< "$json_input" || true
+fi
