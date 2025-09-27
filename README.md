@@ -90,44 +90,44 @@ claude code --plan "Refatore este código seguindo Clean Code"
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 🎯 **[Neo](.claude/agents/neo.md)** | Threat Modeling & OWASP | Análise de ameaças e modelagem de segurança |
-| ⚡ **[Trinity](.claude/agents/trinity.md)** | Vulnerability Scanning | Detecção e correção de vulnerabilidades |
-| 🧙 **[Morpheus](.claude/agents/morpheus.md)** | Clean Code & Refactoring | Limpeza de código e eliminação de technical debt |
-| 🔮 **[Oracle](.claude/agents/oracle.md)** | Documentation & Knowledge | Documentação completa e arquitetura de informação |
+| 🎯 **[Neo](claude/agents/neo.md)** | Threat Modeling & OWASP | Análise de ameaças e modelagem de segurança |
+| ⚡ **[Trinity](claude/agents/trinity.md)** | Vulnerability Scanning | Detecção e correção de vulnerabilidades |
+| 🧙 **[Morpheus](claude/agents/morpheus.md)** | Clean Code & Refactoring | Limpeza de código e eliminação de technical debt |
+| 🔮 **[Oracle](claude/agents/oracle.md)** | Documentation & Knowledge | Documentação completa e arquitetura de informação |
 
 ### 🔗 **The Operators**
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 🔗 **[Link](.claude/agents/link.md)** | Defensive Security (Blue Team) | Monitoramento, detecção de ameaças, resposta a incidentes |
-| 🛡️ **[Tank](.claude/agents/tank.md)** | Data/Configuration Management | Migração de dados, configurações, secrets management |
-| 🎖️ **[Dozer](.claude/agents/dozer.md)** | XDR/SIEM/SOAR Specialist | Extended Detection & Response, SOAR playbooks, Yara/Suricata |
-| 🏰 **[Zee](.claude/agents/zee.md)** | Wazuh Master Specialist | Wazuh deployment, GitHub repos, regras customizadas |
+| 🔗 **[Link](claude/agents/link.md)** | Defensive Security (Blue Team) | Monitoramento, detecção de ameaças, resposta a incidentes |
+| 🛡️ **[Tank](claude/agents/tank.md)** | Data/Configuration Management | Migração de dados, configurações, secrets management |
+| 🎖️ **[Dozer](claude/agents/dozer.md)** | XDR/SIEM/SOAR Specialist | Extended Detection & Response, SOAR playbooks, Yara/Suricata |
+| 🏰 **[Zee](claude/agents/zee.md)** | Wazuh Master Specialist | Wazuh deployment, GitHub repos, regras customizadas |
 
 ### 👑 **The Captains**
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 👸 **[Niobe](.claude/agents/niobe.md)** | Operations Security (OPSEC) | Segurança operacional, cultura de segurança, processos seguros |
-| 🎖️ **[Commander Locke](.claude/agents/commander-locke.md)** | Offensive Security (Red Team) | Testes de penetração éticos, validação de vulnerabilidades |
-| ⚡ **[Ghost](.claude/agents/ghost.md)** | Threat Intelligence & Attribution | CTI analysis, IOCs, TTPs, MITRE ATT&CK, attribution |
+| 👸 **[Niobe](claude/agents/niobe.md)** | Operations Security (OPSEC) | Segurança operacional, cultura de segurança, processos seguros |
+| 🎖️ **[Commander Locke](claude/agents/commander-locke.md)** | Offensive Security (Red Team) | Testes de penetração éticos, validação de vulnerabilidades |
+| ⚡ **[Ghost](claude/agents/ghost.md)** | Threat Intelligence & Attribution | CTI analysis, IOCs, TTPs, MITRE ATT&CK, attribution |
 
 ### 🏗️ **The Architects**
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 🏛️ **[Architect](.claude/agents/architect.md)** | Testing & Quality Architecture | Testes unitários com 95%+ de cobertura, SonarCloud |
-| 🏢 **[Counselor](.claude/agents/counselor.md)** | Multi-tenant SaaS Specialist | Arquitetura multi-tenant, isolamento de dados, SaaS scaling |
-| 🗝️ **[Keymaker](.claude/agents/keymaker.md)** | Microservices Architect | Quebra de monólitos, design de microserviços, APIs |
-| ☁️ **[Switch](.claude/agents/switch.md)** | Multi-cloud Specialist | Arquitetura multi-cloud, migração, otimização de custos |
+| 🏛️ **[Architect](claude/agents/architect.md)** | Testing & Quality Architecture | Testes unitários com 95%+ de cobertura, SonarCloud |
+| 🏢 **[Counselor](claude/agents/counselor.md)** | Multi-tenant SaaS Specialist | Arquitetura multi-tenant, isolamento de dados, SaaS scaling |
+| 🗝️ **[Keymaker](claude/agents/keymaker.md)** | Microservices Architect | Quebra de monólitos, design de microserviços, APIs |
+| ☁️ **[Switch](claude/agents/switch.md)** | Multi-cloud Specialist | Arquitetura multi-cloud, migração, otimização de custos |
 
 ### 🎭 **The Programs**
 
 | Agente | Especialidade | Quando Usar |
 |--------|---------------|-------------|
-| 🤖 **[Agent Smith](.claude/agents/agent-smith.md)** | DevSecOps & CI/CD | Pipelines seguros multi-plataforma |
-| 🎭 **[Merovingian](.claude/agents/merovingian.md)** | Performance & Observability | Otimização e monitoramento |
-| 🌸 **[Persephone](.claude/agents/persephone.md)** | UX/Frontend Quality | Interface e experiência do usuário |
+| 🤖 **[Agent Smith](claude/agents/agent-smith.md)** | DevSecOps & CI/CD | Pipelines seguros multi-plataforma |
+| 🎭 **[Merovingian](claude/agents/merovingian.md)** | Performance & Observability | Otimização e monitoramento |
+| 🌸 **[Persephone](claude/agents/persephone.md)** | UX/Frontend Quality | Interface e experiência do usuário |
 
 ### 🚀 Workflows Integrados
 
